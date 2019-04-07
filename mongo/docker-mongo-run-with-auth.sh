@@ -1,0 +1,1 @@
+docker run --detach -v /home/mongo/db/:/data/db --publish 27017:27017 mongo:latest --auth --bind_ip 0.0.0.0 -v --ipv6
